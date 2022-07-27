@@ -27,16 +27,13 @@ export default {
         .then((response) => {
             this.posts = response.data;
         })
-        .catch((e) => {
-            console.log(e);
-        });
     },
 }
 </script>
 
 <style lang="scss" scoped>
 .posts {
-    background-color: rgb(255, 85, 232);
+    background-color: var(--bg-section-light);
     padding: 3.125rem 0;
     ul {
         padding: 0;

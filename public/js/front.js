@@ -1996,8 +1996,6 @@ __webpack_require__.r(__webpack_exports__);
 
     axios.get('/api/posts').then(function (response) {
       _this.posts = response.data;
-    })["catch"](function (e) {
-      console.log(e);
     });
   }
 });
@@ -2480,7 +2478,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".posts[data-v-b254f190] {\n  background-color: rgb(255, 85, 232);\n  padding: 3.125rem 0;\n}\n.posts ul[data-v-b254f190] {\n  padding: 0;\n  list-style: none;\n}", ""]);
+exports.push([module.i, ".posts[data-v-b254f190] {\n  background-color: var(--bg-section-light);\n  padding: 3.125rem 0;\n}\n.posts ul[data-v-b254f190] {\n  padding: 0;\n  list-style: none;\n}", ""]);
 
 // exports
 
